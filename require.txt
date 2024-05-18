@@ -1,0 +1,9 @@
+npm i react-router-dom
+npm i react-icons
+npm install aos --save
+npm install antd --save 
+npm i moment                //
+npm i react-hot-toast 
+npm install react-slick --save
+npm install @stripe/stripe-js
+npm i @emailjs/browser

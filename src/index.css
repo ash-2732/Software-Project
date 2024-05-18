@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .bg-navbar{
+        /* @apply bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900; */
+        @apply bg-[#1B223C]
+    }
+    .same-color{
+        @apply bg-[#1B223C]
+    }
+}
+
+/* Page not fount css */
+.pnf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.pnf-title{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnf-heading{
+    font-weight: normal;
+}
+
+.pnf-btn{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.first{
+    background: linear-gradient(90.07deg, #ad45ff 1.21%, rgba(102, 134, 249, .7) 147.98%);
+}
+
+.first:hover{
+    background: white;
+    border: 1px solid #ad45ff;
+    color: black;
+}
+.second{
+    background: linear-gradient(217.75deg, #d54a5d -2.41%, #aa4335 108.91%);;
+}
+
+.second:hover{
+    background: white;
+    border: 1px solid #d54a5d;
+    color: black;
+}
+
+.third{
+    background: linear-gradient(169.45deg, #c84bae -16.18%, #6343a6 196.48%);;
+}
+
+.third:hover{
+    background: white;
+    border: 1px solid #c84bae;
+    color: black;
+}
+
+.four{
+    background: linear-gradient(180deg, #2dadf5 -16.22%, #2e46ff 204.73%);;
+}
+
+.four:hover{
+    background: white;
+    border: 1px solid #2dadf5;
+    color: black;
+}
+
+.five{
+    background: linear-gradient(180deg, #ed9511, #c1750d);
+}
+
+.five:hover{
+    background: white;
+    border: 1px solid #ed9511;
+    color: black;
+}
+
+
+.home-third{
+    --tw-bg-opacity: 1;
+    background-color: rgb(228 238 245 / var(--tw-bg-opacity));;
+}
+
+/* for slider */
+
+.App{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
+
+.slick-list{
+    margin: 0 -10px;
+
+}
+
+.card{
+    border: 1px solid #e5e5e5;
+    background:white;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 350px;
+    
+
+}
+
+.card-bottom{
+    margin: 10px , 20px;
+}
+
